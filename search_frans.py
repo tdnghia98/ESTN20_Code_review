@@ -12,7 +12,7 @@ def main():
 
         #Print line if word is in line    
         for line in f:
-            if 'cat' in line:
+            if word in line:
                  print(line)
 
 if __name__ == "__main__":
